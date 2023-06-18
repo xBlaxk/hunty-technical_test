@@ -1,3 +1,21 @@
 {
-  "homePage": "http://uitestingplayground.com"
+  "homePage": "http://uitestingplayground.com",
+  "dynamicIdUrl": "/dynamicid",
+  "classAttrUrl": "/classattr",
+  "hiddenLayersUrl": "/hiddenlayers",
+  "loadDelayUrl": "/loaddelay",
+  "ajaxDataUrl": "/ajax",
+  "clientDelayUrl": "/clientdelay",
+  "clickUrl": "/click",
+  "textInputUrl": "/textinput",
+  "scrollbarsUrl": "/scrollbars",
+  "dynamicTableUrl": "/dynamictable",
+  "verifyTextUrl": "/verifytext",
+  "progressbarUrl": "/progressbar",
+  "visibilityUrl": "/visibility",
+  "sampleAppUrl": "/sampleapp",
+  "mouseOverUrl": "/mouseover",
+  "nonBreakingSpaceUrl": "/nbsp",
+  "overlappedUrl": "/overlapped",
+  "shadowDOMUrl": "/shadowdom"
 }
