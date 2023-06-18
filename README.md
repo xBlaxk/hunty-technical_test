@@ -80,3 +80,67 @@ The main benefits of using POM are:
 - Reliability: By modelling the interactions at a higher level of abstraction, we can write more robust tests that are less likely to break due to minor changes in the UI.
 
 In summary, using the Page Object Model allows us to create more robust, maintainable, and reusable tests, which ultimately helps us to ensure the reliability of our application's user interface.
+
+# Prerequisites
+
+Before you can run the automated tests, you'll need to have the following installed on your machine:
+
+1. **Text Editor**
+
+    A text editor is essential for viewing and editing the codebase. Visual Studio Code is highly recommended due to its extensive support for JavaScript and its integration with Node.js and npm. If you haven't already installed it, you can download it [here](https://code.visualstudio.com/Download).
+
+2. **Node.js & npm**
+
+    Node.js is a JavaScript runtime that's required to run Cypress. Npm (Node Package Manager), installed automatically with Node.js, is necessary for managing project dependencies. If you haven't already installed these, you can download them [here](https://nodejs.org/en/download/).
+
+3. **Cypress**
+
+    The Cypress Test Runner is needed to run the automated tests. It's listed as a project dependency, so running `npm install` in the project root directory will install Cypress.
+
+4. **Git**
+
+    Git is a free and open-source distributed version control system. It's necessary for cloning the repository to your local machine. If you don't have Git installed, you can download it [here](https://git-scm.com/downloads).
+
+Please ensure you have these installed before attempting to run the tests. If you have any issues with installation, please refer to the respective documentation for Visual Studio Code, Node.js, Cypress, or Git.
+
+# Running Automated Tests
+
+This project uses Cypress, an end-to-end testing framework, for automated testing. To run these tests, you'll need to have Node.js and npm installed on your machine. If you haven't installed these yet, you can download them [here](https://nodejs.org/en/download/).
+
+## Steps to Run Tests:
+
+1. **Install Project Dependencies**
+
+    After cloning the repository to your local machine, navigate to the project root directory in your terminal and run the following command to install the required dependencies:
+
+    ```shell
+    npm install
+    ```
+
+2. **Run Cypress Tests**
+
+    This project is configured with a script to start the Cypress Test Runner using npm. To start the Cypress tests, run the following command in your terminal:
+
+    ```shell
+    npm run cypress:open
+    ```
+
+    This command opens the Cypress Test Runner, a graphical user interface that allows you to see commands as they execute while also viewing the application under test.
+
+    If you prefer to run the tests in headless mode (i.e., without the GUI), use the following command instead:
+
+    ```shell
+    npx cypress run
+    ```
+
+    This command runs the Cypress tests in the terminal output.
+
+3. **View Test Results**
+
+    After running the tests, the results will display in your terminal. For failed tests, Cypress provides an explanation about the failure and a stack trace to help you debug the issue.
+
+4. **Test Artifacts**
+
+    Screenshots for failed tests and videos of your entire test suite when run from the `cypress run` command are stored in the `cypress/screenshots` and `cypress/videos` directories, respectively.
+
+Remember, any changes you make to the tests will be automatically reflected in the Test Runner. There's no need to manually restart Cypress.
