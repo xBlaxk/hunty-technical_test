@@ -1,0 +1,10 @@
+{
+    "pageTitle": "UI Test AutomationPlayground",
+    "imageSrc": "/static/cube.png",
+    "imageLicense": "Rubik's Cube is licensed under CC 4.0 BY-NC",
+    "rubiksCubeImageUrl": "http://pngimg.com/download/46552",
+    "rubiksCubeLicenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "alertMessage": "The purpose of this website is to provide a platform for sharpening UI test automation skills. Use it to practice with your test automation tool. Use it to learn test automation techniques.",
+    "citationMessage": "Quality is not an act, it is a habit.",
+    "citationAuthor": "Aristotle"
+}
